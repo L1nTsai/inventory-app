@@ -21,7 +21,7 @@ class MainMenuApp:
         tk.Button(self.root, text='Checkout', cursor='hand1',font=('Arial', 24), command=self.run_checkout_app, width=15, height=2).pack(pady=10)
         tk.Button(self.root, text='History', cursor='hand1',font=('Arial', 24), command=self.run_history_app, width=15, height=2).pack(pady=10)
         tk.Button(self.root, text='Files', cursor='hand1',font=('Arial', 24), command=self.open_location, width=15, height=2).pack(pady=10)
-        tk.Button(self.root, text='Instructions', cursor='hand1',font=('Arial', 24), command=self.run_instructions, width=15, height=2).pack(pady=10)
+        tk.Button(self.root, text='Getting Started', cursor='hand1',font=('Arial', 24), command=self.run_instructions, width=15, height=2).pack(pady=10)
 
     def run_instructions(self):
         self.root.withdraw()
